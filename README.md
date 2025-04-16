@@ -1,8 +1,7 @@
 This Repo helps beginners to connect to Oracle database using Python FastAPI.
-
-Run: "python -m src.main"
-
-Install Oracle database on MacOS:
+===========================================
+**Install Oracle database on MacOS:**
+===========================================
 1. Download "Oracle Database 19c for LINUX ARM (aarch64)" from Oracle website.
 2. Clone "https://github.com/oracle/docker-images"
 3. Goto docker-images -> Oracle Database -> SingleInstance -> docker files -> 19.3.0 -> Paste the zip file from step 1.
@@ -19,3 +18,5 @@ for Role: Choose SYSDBA,
     Database: ORCLCDB/ORCLPDB
     Username: <"username">
     password: <"password">
+
+**To run: "python -m src.main"**
